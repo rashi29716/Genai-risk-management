@@ -43,6 +43,7 @@ It dynamically updates:
 - Python
 - Flask
 - Flask-CORS
+- AI Layer - Crew AI
 
 ---
 
@@ -71,7 +72,7 @@ The system is designed using a simulated multi-agent architecture:
 
 1. User enters project details
 2. Frontend sends data to backend API
-3. Backend calculates risk score
+3. CrewAi calculated the risk
 4. Updated project list is returned
 5. Frontend updates:
    - Active projects table
@@ -90,6 +91,15 @@ The system is designed using a simulated multi-agent architecture:
 |  |---package.json
 
 ---
+
+##  Deployment
+- Render (Frontend + Backend)
+
+---
+
+## Live Demo
+Frontend - https://genai-risk-frontend3.onrender.com
+Backend  - https://genai-risk-management-5.onrender.com
 
 ##  Future Improvements
 
